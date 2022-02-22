@@ -1,0 +1,58 @@
+name: HealthPlus
+version: '1.7'
+main: me.toxicminty.healthplus.Main
+api-version: 1.17
+authors: [ ToxicMinty ]
+description: This plugin adds many features of healing to your server!
+website: https://www.youtube.com/channel/UC3w_ah0Dfr2iJe_DaGVtYqg?sub_confirmation=1
+commands:
+  heal:
+    usage: /heal [player]
+    description: Use /heal [player] to heal either you or another player!
+    permission: healthplus.heal, healthplus.*
+    permission-message: Unknown command. Type "/help" for help.
+  feed:
+    usage: /feed [player]
+    description: Use /feed [player] to feed either you or another player!
+    permission: healthplus.feed, healthplus.*
+    permission-message: Unknown command. Type "/help" for help.
+  doublehealth:
+    usage: /doublehealth [player]
+    description: Use /doublehealth [player] to double either yours or another players health!
+    permission: healthplus.doublehealth, healthplus.*
+    permission-message: Unknown command. Type "/help" for help.
+  resethealth:
+    usage: /resethealth [player]
+    description: Use /resethealth [player] to reset either yours or another players health!
+    permission: healthplus.resethealth, healthplus.*
+    permission-message: Unknown command. Type "/help" for help.
+  feal:
+    usage: /feal [player]
+    description: Use /feal [player] feed and heal either you or another player at the same time!
+    permission: healthplus.feal, healthplus.*
+    permission-message: Unknown command. Type "/help" for help.
+  die:
+    usage: /die [player]
+    description: Use /die [player] to either kill you or another player!
+    permission: healthplus.die, healthplus.*
+    permission-message: Unknown command. Type "/help" for help.
+  healall:
+    usage: /healall [players/all/entities]
+    description: Use /healall [player/all] to heal all players/entities in a specific group!
+    permission: healthplus.healall, healthplus.*
+    permission-message: Unknown command. Type "/help" for help.
+  killall:
+    usage: /killall [all/creative/survival/help]
+    description: Use /killall [all/creative/survival/adventure/spectator/help] to kill all players
+    permission: healthplus.killall, healthplus.*
+    permission-message: Unknown command. Type "/help" for help.
+  gethealth:
+    usage: /gethealth [player]
+    description: Use /gethealth [player] to get either your health or another players health
+    permission: healthplus.gethealth, healthplus.*
+    permission-message: Unknown command. Type "/help" for help.
+  getmaxhealth:
+    usage: /getmaxhealth [player]
+    description: Use /getmaxhealth [player] to get either your max health or another players max health
+    permission: healthplus.getmaxhealth, healthplus.*
+    permission-message: Unknown command. Type "/help" for help.
